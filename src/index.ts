@@ -7,6 +7,7 @@ async function start(){
     });
 
     const app = express();
+    
     app.get('/', (req, res)=>{
         res.send('Hello World! A');
     });
